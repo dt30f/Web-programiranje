@@ -1,0 +1,78 @@
+.first-color {
+    background: #1d1716;
+}
+
+.second-color {
+    background: #402a23;
+}
+
+.third-color {
+    background: #a55233;
+    color: #fff;
+}
+
+.fourth-color {
+    background: #f3bc77;
+}
+
+.fourth-color-text {
+    color: #f3bc77;
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login kartica */
+.login-card {
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    width: 350px;
+    text-align: center;
+}
+
+/* Naslov */
+.login-title {
+    margin-bottom: 1.5rem;
+}
+
+/* Input polja */
+.form-control {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px #f3bc77;
+}
+
+/* Dugme */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover efekti */
+.btn-login:hover {
+    background: #f3bc77;
+    color: #402a23;
+    transform: scale(1.05);
+}
+
+.form-control:hover {
+    background: #a55233cc; /* malo svetlija nijansa na hover */
+}
