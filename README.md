@@ -68,8 +68,6 @@ Aplikacija omogućava:
 - **MySQL / PostgreSQL** (relaciona baza)
 - Svi entiteti (korisnici, događaji, komentari, kategorije, tagovi, RSVP) čuvaju se u bazi
 
----
-
 
 ---
 
@@ -82,7 +80,7 @@ Aplikacija omogućava:
    cd backend
 2. Pokreni projekat (npr. preko Maven-a ili IDE-a).
 3. Backend API će biti dostupan na:
-http://localhost:8080/api
+http://localhost:8081/api
 
 ### Frontend
 
@@ -91,9 +89,9 @@ http://localhost:8080/api
 2. Instaliraj dependensije:
    npm install
 3. Pokreni razvojni server:
-   npm start
+   npm run dev
 4. Aplikacija će biti dostupna na:
-http://localhost:3000
+http://localhost:5173
 
 ## 🔐 Nalozi i uloge
 
@@ -123,3 +121,17 @@ VALUES ('Admin', 'User', 'admin@example.com', 'hashovana_lozinka', 'admin', 'akt
 
 ## 🧾 Licenca
 - Ovaj projekat je urađen u edukativne svrhe i nije namenjen komercijalnoj upotrebi.
+
+---
+
+
+## 📸 Screenshots
+- U nastavku su prikazani neki delovi aplikacije — korisnički interfejs, EMS panel i javna platforma.
+
+| Opis slike                                                         | Slika                                                      |
+| ------------------------------------------------------------------ |------------------------------------------------------------|
+| 🏠 **Početna stranica** – prikaz najnovijih događaja               | ![Home Page](vite-project/src/assets/home-page.png)        |
+| 📅 **Pregled događaja** – lista sa paginacijom i pretragom         | ![Event List](vite-project/src/assets/event-list.png)      |
+| 🧾 **Detalji događaja** – prikaz informacija, komentara i reakcija | ![Event Details](vite-project/src/assets/event-detail.png) |
+| 🔐 **Login stranica** – autentifikacija korisnika                  | ![Login Page](vite-project/src/assets/login-page.png)      |
+

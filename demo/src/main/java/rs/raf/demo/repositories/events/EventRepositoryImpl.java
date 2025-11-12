@@ -122,7 +122,6 @@ public class EventRepositoryImpl extends MySqlAbstractRepository implements Even
             while (rs.next()) {
                 events.add(mapResultSetToEventDto(rs));
             }
-            System.out.println("vracamo ovoliko elemenata " + events.size());
             return events;
         }catch (Exception e) {
             e.printStackTrace();

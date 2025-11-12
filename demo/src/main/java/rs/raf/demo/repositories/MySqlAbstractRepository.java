@@ -5,6 +5,14 @@ import java.util.Optional;
 
 abstract public class MySqlAbstractRepository {
 
+    public static void main(String[] args) throws SQLException {
+        MySqlAbstractRepository repo = new MySqlAbstractRepository() {};
+        try (Connection conn = repo.newConnection()) {
+            System.out.println("Connected: " + !conn.isClosed());
+        }
+    }
+
+
     public MySqlAbstractRepository() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
